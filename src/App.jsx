@@ -5,6 +5,8 @@ import FeatureSection from './Component/FeatureSection'
 import WorkFlow from './Component/WorkFlow'
 import Princing from './Component/Princing'
 import Testomonial from './Component/Testomonial'
+import Footer from './Component/Footer'
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -21,6 +23,7 @@ function App() {
        <WorkFlow />
         <Princing />
         <Testomonial />
+        <Footer />
         
 
       
